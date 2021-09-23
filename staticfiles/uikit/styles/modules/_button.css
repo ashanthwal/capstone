@@ -2,7 +2,7 @@
   display: inline-block;
   position: relative;
   cursor: pointer;
-  background-color: var(--color-light);
+  background-color: rgb(187, 187, 190);
   font-weight: var(--font-medium);
   color: var(--color-sub);
   text-decoration: none;
