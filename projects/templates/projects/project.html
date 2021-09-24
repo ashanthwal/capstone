@@ -48,10 +48,10 @@
                 </div>
                 <div class="comments">
                     <h3 class="singleProject__subtitle">Feedback</h3>
-                    <h5 class="project--rating">
+                    <h3 class="project--rating">
                         {{project.vote_ratio}}% Positive Feedback ({{project.vote_total}}
                         Vote{{project.vote_total|pluralize:"s"}})
-                    </h5>
+                    </h3>
 
                     {% if request.user.profile.id in project.reviewers %}
                     <p>You have already submitted your review for this project</p>

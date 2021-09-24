@@ -7,7 +7,7 @@
 }
 
 h5 {
-  color: var(--color-light);
+  color: rgb(148, 128, 128);
 }
 .login_icon {
   width: 10rem;
