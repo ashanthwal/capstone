@@ -1,12 +1,6 @@
 # Final Project for CS50 WEB
 
-# Instructions
 
-- Missing the .env file, that contains the API keys.
-- Thus would require the relevant API Keys to be setup run the code locally on your machine.
-- Node modules need to be installed using the npm install command.
-- Files are zipped/compressed as the file size was too big.Needs unzipping.
-- After installations run command : npm run dev (uses concurrently npm package)
 
 # Description
 
