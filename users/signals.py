@@ -20,8 +20,8 @@ def createProfile(sender, instance, created, **kwargs):
             name=user.first_name,
         )
 
-        subject = 'Connect50'
-        message = 'Showcase for CS50 Web Projects'
+        subject = 'Welcome to Connect50'
+        message = 'A Showcase for CS50 Web Projects and students'
 
         send_mail(
             subject,

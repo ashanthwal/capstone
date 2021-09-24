@@ -200,7 +200,7 @@ img {
 .hero-section__box > h2,
 .hero-section__box > h2 > span {
   font-size: 4rem;
-  color: var(--color-light);
+  color: white;
   line-height: 1.3;
   text-transform: uppercase;
 }
@@ -333,7 +333,7 @@ img {
 }
 
 .pagination .btn.btn--sub {
-  color: blue;
+  color: rgb(138, 138, 143);
 }
 
 /*=======================
@@ -503,7 +503,7 @@ img {
   Projects Page
 ========================*/
 .projects > .hero-section {
-  background: var(--color-sub-lighter);
+  background: var(--color-sub);
   height: 30vh;
 }
 

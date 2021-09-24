@@ -18,7 +18,7 @@
                 </div>
 
                 {% if project.source_link %}
-                <div class="btn btn--sub">
+                <div class="btn">
                 <a class="singleProject__liveLink" href="{{project.fa}}" target="_blank"><i
                         class="im im-external-link"></i>Source
                     Code
@@ -28,7 +28,7 @@
                 {% endif %}
 
                 {% if project.demo_link %}
-                <div class="btn btn--sub">
+                <div class="btn btn--">
                 <a class="singleProject__liveLink" href="{{project.source_link}}" target="_blank"><i
                         class="im im-external-link"></i>Live Demo
 
@@ -42,7 +42,7 @@
                 <a href="{% url 'user-profile' project.owner.id  %}"
                     class="singleProject__developer">{{project.owner.name}}</a>
                 <h2 class="singleProject__title">{{project.title}}</h2>
-                <h3 class="singleProject__subtitle">About the Project</h3>
+                <h3 class="singleProject__title">About the Project</h3>
                 <div class="singleProject__info">
                     {{project.description}}
                 </div>
@@ -68,7 +68,7 @@
                             {{field}}
                         </div>
                         {% endfor %}
-                        <input class="btn btn--sub btn--lg" type="submit" value="Add Review" />
+                        <input class="btn  btn--lg" type="submit" value="Add Review" />
                     </form>
                     {% else %}
                     <a href="{% url 'login' %}?next={{request.path}}">Please login to leave a review</a>
