@@ -33,3 +33,5 @@ Follow the steps after downloading/cloning the files from the github repository:
 - pip install -r requirements.txt
 - python manage.py runserver
 - the project does not include the keys for the EMAIL_HOST_USER and EMAIL_HOST_PASSWORD.
+
+# capstone
