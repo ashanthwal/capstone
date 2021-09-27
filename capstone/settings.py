@@ -165,7 +165,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'from.showcase50@gmail.com'
-EMAIL_HOST_PASSWORD = 'ENTER YOUR EMAIL AND PASSWORD'
+EMAIL_HOST_PASSWORD = 'Testpassword1'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
