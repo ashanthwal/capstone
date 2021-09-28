@@ -1,4 +1,4 @@
-# Final Project for CS50 WEB
+# Capstone Project for CS50 WEB
 
 -This is the final project for CS50 Web Development built by Ashutosh Anthwal.
 
