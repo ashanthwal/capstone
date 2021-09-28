@@ -1,6 +1,6 @@
 # Capstone Project for CS50 WEB
 
--This is the final project for CS50 Web Development built by Ashutosh Anthwal.
+- This is the final project for CS50 Web Development built by Ashutosh Anthwal.
 
 Youtube Link: https://youtu.be/RYn2J6djwqw
 
