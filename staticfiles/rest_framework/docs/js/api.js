@@ -1,5 +1,5 @@
 var responseDisplay = 'data'
-var coreapi = window.coreapi
+var coreapi = window.core
 var schema = window.schema
 
 function normalizeKeys (arr) {

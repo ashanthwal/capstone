@@ -10,6 +10,11 @@ from django.conf import settings
 # @receiver(post_save, sender=Profile)
 
 
+# COMING SOON.. This part has not been implemented completely for CS50 Web Programming- Capstone Project
+# and is intended for my personal project only. There are additionl features that
+# I wish to implement and roll out eventually and were beyond the scope of this project
+
+
 def createProfile(sender, instance, created, **kwargs):
     if created:
         user = instance
